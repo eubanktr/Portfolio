@@ -1,0 +1,86 @@
+body {
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    background: steelblue;
+    color: lightgoldenrodyellow;
+}    
+
+header {
+    background: #758fab;
+    color: lightgoldenrodyellow;
+    margin: auto;
+    border-bottom: lightgoldenrodyellow solid 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+h2 {
+    color: lightgoldenrodyellow;
+    padding: 15px;
+}
+
+.sectionWork{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+article {
+    border: lightgoldenrodyellow solid 2px;
+    height: 100px;
+    width: 120px;
+}
+a {
+    text-decoration: none;
+    color: lightgoldenrodyellow;
+}
+
+.contactMe {
+    background: #758fab;
+    color: lightgoldenrodyellow;
+    margin: auto;
+    border-top: lightgoldenrodyellow solid 7px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.work1 {
+    background-image: url(https://images.unsplash.com/photo-1607827448387-a67db1383b59?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2700&q=80);
+    background-size: 150px;
+}
+
+.work2 {
+    background-image: url(https://images.unsplash.com/photo-1587758818193-d6c0130e77f7?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2702&q=80);
+    background-size: 150px;
+}
+
+.work3 {
+    background-image: url(https://images.unsplash.com/photo-1616628188550-808682f3926d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80);
+    background-size: 150px;
+}
+
+.work4 {
+    background-image: url(https://images.unsplash.com/photo-1582133456304-2f5cb1c2afbb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1572&q=80);
+    background-size: 150px;
+}
+
+.work5 {
+    background-image: url(https://images.unsplash.com/photo-1536443527011-81700919d4c0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+    background-size: 150px;
+}
+
+.work6 {
+    background-image: url(https://images.unsplash.com/photo-1594808985790-98a065b97476?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=946&q=80);
+    background-size: 150px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+        background-color: lightgreen;
+    }
+}
