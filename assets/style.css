@@ -21,11 +21,13 @@ h2 {
     padding: 15px;
 }
 
-.sectionWork{
+section {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 20px;
+    border: 2px;
+    align-items: center
 }
 
 article {
@@ -36,6 +38,7 @@ article {
 a {
     text-decoration: none;
     color: lightgoldenrodyellow;
+    padding: 10px;
 }
 
 .contactMe {
@@ -76,6 +79,17 @@ a {
 .work6 {
     background-image: url(https://images.unsplash.com/photo-1594808985790-98a065b97476?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=946&q=80);
     background-size: 150px;
+}
+
+article:active {
+    height: 150px;
+    width: 180px;
+    background-size: 225px;
+    opacity: 80%;
+}
+
+article:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 @media screen and (max-width: 768px) {
